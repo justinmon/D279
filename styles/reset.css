@@ -8,8 +8,8 @@
   font: inherit;
 }
 
-body {
-  min-width: 100vh;
+html {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 img, picture, svg, video {

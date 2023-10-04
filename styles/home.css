@@ -1,0 +1,61 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  outline: 1px solid black;
+}
+
+#search-bar-container {
+  flex-direction: row-reverse;
+  padding: 0.75rem;
+  height: 3rem;
+}
+
+#header-container {
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20rem 0 4rem;
+}
+
+.home-logo {
+  width: 300px;
+}
+
+.cat-homepage, .dog-homepage {
+  width: 400px;
+  border-radius: 100px;
+}
+
+#main-para {
+  flex-direction: column;
+  justify-content: space-around;
+  flex: 1;
+  padding: 0 1rem;
+}
+
+.test {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+#footer-container {
+  margin-top: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 100px;
+}
+
+#contact-info {
+  flex-direction: column;
+}
