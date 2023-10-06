@@ -21,3 +21,8 @@ img, picture, svg, video {
 input, textarea, button, select {
   font: inherit;
 }
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
