@@ -101,12 +101,22 @@ button:active {
   gap: 3rem;
 }
 
-.test {
+.test,
+.pets-main {
   display: flex;
   align-items: center;
   gap: 1.5rem;
   font-size: 1.2rem;
   line-height: 2rem;
+}
+
+.pets-main {
+  flex-wrap: wrap;
+}
+
+.para-a {
+  color: darkblue;
+  text-decoration: underline;
 }
 
 .adoption-resources {
@@ -115,6 +125,11 @@ button:active {
   gap: 1.5rem;
   font-size: 1.2rem;
   line-height: 2rem;
+}
+
+b {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 span {
