@@ -92,6 +92,35 @@ button:active {
   border-radius: 100px;
 }
 
+.bird-page {
+  width: 600px;
+  border-radius: 300px;
+  margin: auto;
+}
+
+.dog-page1 {
+  width: 400px;
+  border-radius: 200px;
+}
+
+.dog-page2 {
+  width: 800px;
+  border-radius: 100px;
+  margin: auto;
+}
+
+.cat-page1 {
+  width: 500px;
+  border-radius: 250px;
+}
+
+.cat-page2,
+.cat-page3 {
+  width: 450px;
+  border-radius: 100px;
+  margin: auto;
+}
+
 #main-para {
   background-color: #6699cc;
   flex-direction: column;
